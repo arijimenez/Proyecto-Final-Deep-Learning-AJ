@@ -6,6 +6,7 @@ Se trabajó con un dataset balanceado que fue dividido en **conjuntos de entrena
 
 ## 🗂️ Dataset
 Se utilizó el **Flower Photos Dataset**, disponible públicamente en TensorFlow. Este dataset contiene imágenes de 5 categorías de flores:  
+![Ejemplo del dataset](https://storage.googleapis.com/tfds-data/visualization/fig/oxford_flowers102-2.1.1.png)
 - 🌸 Daisies  
 - 🌼 Dandelions  
 - 🌹 Roses  
