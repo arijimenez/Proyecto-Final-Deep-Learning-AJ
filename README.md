@@ -48,4 +48,9 @@ Se utilizó el **Flower Photos Dataset**, disponible públicamente en TensorFlow
 - **ResNet50** es una alternativa recomendable si se cuenta con más recursos computacionales.  
 - **MobileNetV2** es útil únicamente en escenarios donde la prioridad es la **baja demanda de recursos**, sacrificando exactitud en la clasificación.  
 
+## ⚙️ Reproducir Resultados
+
+Puedes ejecutar el proyecto y entrenar los modelos directamente en Google Colab:  
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DmxtaDJ5sn83Tm8JoMPBHHO0Dp9IrVnM?usp=sharing)
 ---
