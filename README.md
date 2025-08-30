@@ -1,15 +1,26 @@
-# Proyecto-Final-Deep-Learning-AJ
-El objetivo del estudio fue aplicar transfer learning para resolver un problema de clasificación de imágenes. Se eligió la ruta de clasificación con modelos preentrenados y se compararon tres arquitecturas: ResNet50, MobileNetV2 y Efficient- NetB0. 
 # 📂 Clasificación de Imágenes con Deep Learning
 
 ## 📌 Descripción del Proyecto
-Este proyecto tiene como objetivo desarrollar y evaluar diferentes arquitecturas de **redes neuronales convolucionales (CNNs)** para la **clasificación de imágenes**.  
+Este proyecto tiene como objetivo desarrollar y evaluar diferentes arquitecturas de **redes neuronales convolucionales (CNNs)** para la **clasificación de imágenes de flores**.  
 Se trabajó con un dataset balanceado que fue dividido en **conjuntos de entrenamiento y validación**, con el fin de comparar el rendimiento de tres modelos populares de deep learning.
+
+## 🗂️ Dataset
+Se utilizó el **Flower Photos Dataset**, disponible públicamente en TensorFlow. Este dataset contiene imágenes de 5 categorías de flores:  
+- 🌸 Daisies  
+- 🌼 Dandelions  
+- 🌹 Roses  
+- 🌻 Sunflowers  
+- 🌷 Tulips  
+
+- **Fuente oficial**: [Flower Photos Dataset](https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz)  
+- **Tamaño aproximado**: 3,670 imágenes  
+- **División**: 80% entrenamiento y 20% validación  
+- **Preprocesamiento**: redimensionamiento, normalización y data augmentation para mejorar la generalización.  
 
 ## 🧠 Modelos Evaluados
 - **ResNet50**: Red profunda con conexiones residuales que permiten un mejor flujo de gradientes.  
 - **MobileNetV2**: Arquitectura ligera optimizada para dispositivos móviles y entornos con recursos limitados.  
-- **EfficientNetB0**: Modelo que escala de forma compuesta (profundidad, anchura y resolución) para lograr eficiencia y precisión.
+- **EfficientNetB0**: Modelo que escala de forma compuesta (profundidad, anchura y resolución) para lograr eficiencia y precisión.  
 
 ## ⚙️ Metodología
 1. Preprocesamiento de imágenes (redimensionamiento y normalización).  
